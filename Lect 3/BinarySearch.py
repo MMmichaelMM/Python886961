@@ -1,3 +1,6 @@
+"""
+Binary search
+"""
 import math
 def binSearch(arr, x):
     left = 0
