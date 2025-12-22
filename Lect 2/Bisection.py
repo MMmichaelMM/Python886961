@@ -1,4 +1,9 @@
-
+"""
+This function uses the bisection method to find a root of the function f
+in the interval [a,b] to within Nmax iterations.
+It prints a table of the iteration number, the endpoints a and b, the midpoint c,
+and the value f(c) at each iteration.
+"""
 
 def bisect(f, a, b, Nmax):
     n = 1
